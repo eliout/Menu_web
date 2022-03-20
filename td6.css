@@ -1,0 +1,122 @@
+#main {
+    color: #CCC;
+    margin-left: 7em;
+    padding: 1px 0 1px 5%;
+    border-left: 1px solid;
+}
+div {
+    display: block;
+}
+
+div#nav {
+    float: left;
+    width: 7em;
+    margin: -1px 0 0 -1px;
+}
+
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+h1 {
+    color: #AAA;
+    border-bottom: 1px solid;
+    margin-bottom: 0;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+head {
+    display: none;
+}
+div#nav {
+	float: left;
+	width: 7em;
+	margin: -1px 0 0 -1px;
+}
+
+div#nav ul {
+	margin: 0;
+	padding: 0;
+	width: 7em;
+}
+
+div#nav li {
+	position: relative;
+	list-style: none;
+	margin: 0;
+}
+
+div#nav li:hover {
+	background: #EBB;
+}
+
+div#nav li.submenu:hover {
+	background-color: #EDD;
+}
+
+div#nav li a {
+	display: block;
+	padding: 0.25em 0 0.25em 0.5em;
+	text-decoration: none;
+	width: 6.5em;
+}
+
+div#nav>ul a {
+	width: auto;
+}
+
+div#nav ul ul {
+	position: absolute;
+	top: 0;
+	left: 7em;
+	display: none;
+}
+
+div#nav ul.level1 li.submenu:hover ul.level2 {
+	display: block;
+}
+div#nav ul ul {
+    position: absolute;
+    top: 0;
+    left: 7em;
+    display: none;
+}
+div#nav ul {
+    margin: 0;
+    padding: 0;
+    width: 7em;
+}
+
+ul ul {
+    list-style-type: circle;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+div#nav li {
+    position: relative;
+    list-style: none;
+    margin: 0;
+}
+
+ul {
+    list-style-type: disc;
+}
